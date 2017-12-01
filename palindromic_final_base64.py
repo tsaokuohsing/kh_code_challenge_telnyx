@@ -32,7 +32,7 @@ def palindrome(value):
 def minimal_palindrome_base(number):
     ''' Find the smallest base for a given number and increment the number'''
     if count < int(numpali)+1:
-       for base in range(2,64):
+       for base in range(2,65):
           if palindrome(convert_base(number, base)):
              return base
        return -1
