@@ -17,7 +17,7 @@ except ValueError:
 count=0
 
 def convert_base(number, base):
-    ''' Convert number to base 2 until 32 '''
+    ''' Convert number to base 2 until 64 '''
     base_string = '0123456789ABCDEFGHIJKLMNOPQRTUVWXYZabcdefghigklmnopqrstuvwxyz+/'
     if number < base:
         return base_string[number]
